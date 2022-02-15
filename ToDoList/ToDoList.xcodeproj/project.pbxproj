@@ -15,6 +15,8 @@
 		7DC6843127BC6666005A42B7 /* ToDoListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC6843027BC6666005A42B7 /* ToDoListUITests.swift */; };
 		7DC6843327BC6666005A42B7 /* ToDoListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC6843227BC6666005A42B7 /* ToDoListUITestsLaunchTests.swift */; };
 		7DC6844327BC6CD8005A42B7 /* TasksListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC6844227BC6CD8005A42B7 /* TasksListViewController.swift */; };
+		7DC6844927BC7360005A42B7 /* ViewCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC6844827BC7360005A42B7 /* ViewCode.swift */; };
+		7DC6844B27BC74F4005A42B7 /* TasksListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC6844A27BC74F4005A42B7 /* TasksListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		7DC6843027BC6666005A42B7 /* ToDoListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListUITests.swift; sourceTree = "<group>"; };
 		7DC6843227BC6666005A42B7 /* ToDoListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7DC6844227BC6CD8005A42B7 /* TasksListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksListViewController.swift; sourceTree = "<group>"; };
+		7DC6844827BC7360005A42B7 /* ViewCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCode.swift; sourceTree = "<group>"; };
+		7DC6844A27BC74F4005A42B7 /* TasksListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		7DC6840E27BC6664005A42B7 /* ToDoList */ = {
 			isa = PBXGroup;
 			children = (
+				7DC6844727BC7347005A42B7 /* Protocols */,
 				7DC6844027BC6C90005A42B7 /* CreateTask */,
 				7DC6843F27BC6C85005A42B7 /* TasksList */,
 				7DC6840F27BC6664005A42B7 /* AppDelegate.swift */,
@@ -128,6 +133,7 @@
 		7DC6843F27BC6C85005A42B7 /* TasksList */ = {
 			isa = PBXGroup;
 			children = (
+				7DC6844427BC6F58005A42B7 /* Views */,
 				7DC6844127BC6CC2005A42B7 /* Controllers */,
 			);
 			path = TasksList;
@@ -146,6 +152,22 @@
 				7DC6844227BC6CD8005A42B7 /* TasksListViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		7DC6844427BC6F58005A42B7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7DC6844A27BC74F4005A42B7 /* TasksListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7DC6844727BC7347005A42B7 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				7DC6844827BC7360005A42B7 /* ViewCode.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,6 +303,8 @@
 			files = (
 				7DC6841027BC6664005A42B7 /* AppDelegate.swift in Sources */,
 				7DC6844327BC6CD8005A42B7 /* TasksListViewController.swift in Sources */,
+				7DC6844927BC7360005A42B7 /* ViewCode.swift in Sources */,
+				7DC6844B27BC74F4005A42B7 /* TasksListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

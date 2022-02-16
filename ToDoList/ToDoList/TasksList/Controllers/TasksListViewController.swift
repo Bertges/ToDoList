@@ -9,8 +9,16 @@ import Foundation
 import UIKit
 
 final class TasksListViewController: UIViewController {
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        view.backgroundColor = .yellow
+
+    lazy var listView: TasksListView = .init(addAction: {
+        self.presentAddTaskScreen()
+    })
+
+    override func loadView() {
+        view = listView
+    }
+
+    func presentAddTaskScreen() {
+        present(CreateTaskViewController(), animated: true, completion: nil)
     }
 }

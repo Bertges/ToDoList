@@ -17,6 +17,7 @@
 		7DC6844327BC6CD8005A42B7 /* TasksListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC6844227BC6CD8005A42B7 /* TasksListViewController.swift */; };
 		7DC6844927BC7360005A42B7 /* ViewCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC6844827BC7360005A42B7 /* ViewCode.swift */; };
 		7DC6844B27BC74F4005A42B7 /* TasksListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC6844A27BC74F4005A42B7 /* TasksListView.swift */; };
+		7DC6844F27BC8065005A42B7 /* CreateTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC6844E27BC8065005A42B7 /* CreateTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		7DC6844227BC6CD8005A42B7 /* TasksListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksListViewController.swift; sourceTree = "<group>"; };
 		7DC6844827BC7360005A42B7 /* ViewCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCode.swift; sourceTree = "<group>"; };
 		7DC6844A27BC74F4005A42B7 /* TasksListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksListView.swift; sourceTree = "<group>"; };
+		7DC6844E27BC8065005A42B7 /* CreateTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,8 @@
 		7DC6844027BC6C90005A42B7 /* CreateTask */ = {
 			isa = PBXGroup;
 			children = (
+				7DC6844D27BC8056005A42B7 /* View */,
+				7DC6844C27BC803D005A42B7 /* Controller */,
 			);
 			path = CreateTask;
 			sourceTree = "<group>";
@@ -168,6 +172,21 @@
 				7DC6844827BC7360005A42B7 /* ViewCode.swift */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		7DC6844C27BC803D005A42B7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7DC6844E27BC8065005A42B7 /* CreateTaskViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7DC6844D27BC8056005A42B7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,6 +324,7 @@
 				7DC6844327BC6CD8005A42B7 /* TasksListViewController.swift in Sources */,
 				7DC6844927BC7360005A42B7 /* ViewCode.swift in Sources */,
 				7DC6844B27BC74F4005A42B7 /* TasksListView.swift in Sources */,
+				7DC6844F27BC8065005A42B7 /* CreateTaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

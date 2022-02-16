@@ -10,8 +10,10 @@ import UIKit
 
 final class CreateTaskViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        view.backgroundColor = .systemMint
+    let createTaskView: CreateTaskView = .init()
+
+    override func loadView() {
+        view = createTaskView
     }
+    
 }
